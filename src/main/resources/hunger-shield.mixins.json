@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.hungershield.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "HungerManagerMixin",
+    "LivingEntityAccessor",
+    "LivingEntityMixin",
+    "ServerPlayerEntityMixin"
+  ],
+  "client": [
+    "InGameHudMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

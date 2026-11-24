@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "hunger_shield",
+  "version": "${version}",
+  "name": "Hunger Shield",
+  "description": "Turns hunger and saturation into a 1000-point shield with a custom numeric HUD and low-health damage absorption.",
+  "authors": [
+    "yzt"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.hungershield.HungerShield"
+    ]
+  },
+  "mixins": [
+    "hunger-shield.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  },
+  "contact": {
+    "homepage": "https://github.com/yzt-yhssyt/hunger-shield",
+    "sources": "https://github.com/yzt-yhssyt/hunger-shield",
+    "issues": "https://github.com/yzt-yhssyt/hunger-shield/issues"
+  }
+}
